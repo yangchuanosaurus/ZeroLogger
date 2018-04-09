@@ -1,6 +1,7 @@
 # ZeroLogger
 
 ## Sample code
+```
 require 'ZeroLogger'
 
 logger = ZeroLogger.logger("A")
@@ -16,9 +17,12 @@ logger.add_msg("rice")
 logger.level = 1
 logger.add_msg("sweetmeats")
 logger.log
+```
 
+## Output
 Normal output:
-```lunch
+```
+lunch
 drink
 dinner
 meat
@@ -26,10 +30,12 @@ rice
 fish
 rice
 sweetmeats
-End.```
+End.
+```
 
 ZeroLogger output:
-```lunch
+```
+lunch
 	drink
 	dinner
 		meat
@@ -37,4 +43,5 @@ ZeroLogger output:
 		fish
 		rice
 	sweetmeats
-End.```
+End.
+```

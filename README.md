@@ -2,7 +2,7 @@
 
 ## Sample code
 ```
-require 'ZeroLogger'
+require 'zero_logger'
 
 logger = ZeroLogger.logger("A")
 logger.begin("Lunch")
